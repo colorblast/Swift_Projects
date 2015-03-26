@@ -19,6 +19,8 @@ while constant > 3 {
                 println("Buzz")
             } else if number % 3 == 0 && number % 5 == 0 {
                 println("\(number). Wow. A FizzBuzz.")
+            } else {
+                println("Nada. Lo siento. I'm sorry. \(number) is not divisible by 3 or 5.")
             }
         }
     }
