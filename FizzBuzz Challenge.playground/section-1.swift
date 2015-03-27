@@ -7,12 +7,7 @@ import UIKit
 
 var rand = 1...50
 
-var constant = 0
-
-while constant > 3 {
     for number in rand {
-        switch number {
-        default:
             if number % 3 == 0 {
                 println("Fizz")
             } else if number % 5 == 0 {
@@ -22,7 +17,5 @@ while constant > 3 {
             } else {
                 println("Nada. Lo siento. I'm sorry. \(number) is not divisible by 3 or 5.")
             }
-        }
     }
-    constant++
-}
+
