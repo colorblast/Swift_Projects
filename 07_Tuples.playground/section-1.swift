@@ -4,7 +4,7 @@ import UIKit
 
 var str = "Hello, playground"
 
-func searchNames (#name: String) -> Bool {
+func searchNames (#name: String) -> Bool, String {
     let names =
     ["Mark", "May", "Gary", "Allen", "Joy", "Dave"]
     
