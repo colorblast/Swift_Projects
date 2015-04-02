@@ -15,7 +15,7 @@ func searchNames (#name: String) -> (found: Bool, description: String) {
             found = (true, "\(name) is a name in our database.")
         }
     }
-    println("The name was not found. Value returned is \(found). Testing by Jonathan Wong.")
+    println("Value returned is \(found). Testing by Jonathan Wong.")
     return found
 }
 
